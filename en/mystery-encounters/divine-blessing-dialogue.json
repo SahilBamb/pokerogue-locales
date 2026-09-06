@@ -1,0 +1,22 @@
+{
+  "intro": "A soft chiming drifts through the air.$At a weathered roadside shrine, a lone Chimecho floats with its eyes closed — praying.",
+  "title": "The Praying Chimecho",
+  "description": "The Chimecho seems to be pleading on behalf of the weak. Your team is not mighty, and it senses that. If you pray alongside it, perhaps something will answer — and lend your Pokémon a fragment of its power.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Pray Alongside It",
+      "tooltip": "(+) Choose in turn who receives each aspect:\nHP, Atk, Def, Sp. Atk, Sp. Def, Speed\n(-) Binds you to the Covenant of the Meek",
+      "prayPrompt": "You bow your head beside the Chimecho…$Three presences stir. To whom will you pray?",
+      "assignPrompt": "Who will be granted {{godName}}'s {{stat}} ({{value}})?",
+      "alreadyBlessed": "This Pokémon has already been given an aspect.",
+      "blessingGranted": "@s{item_fanfare}{{godName}} answers your prayer!$Its aspects settle over those who stepped forward…",
+      "covenantWarning": "A voice fills your mind:$\"I bless the meek, and only the meek.\"$If a Pokémon evolves, it will outgrow its aspect.$And should a mighty Pokémon join your ranks, my favor will leave you entirely."
+    },
+    "2": {
+      "label": "Leave It in Peace",
+      "tooltip": "(-) No Rewards",
+      "selected": "You leave the Chimecho to its prayers.$The chiming fades behind you."
+    }
+  }
+}

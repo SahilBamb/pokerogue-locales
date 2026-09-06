@@ -1,0 +1,39 @@
+{
+  "intro": "A gleaming machine hums in the clearing, plastered with hand-written notes and… is that a shipping chart?",
+  "title": "The Fanfic Fabricator",
+  "description": "A sign reads: @[TOOLTIP_TITLE]{EVERY THEORY IS TRUE IF YOU BELIEVE HARD ENOUGH.} The machine seems to recognize one of your Pokémon. A slot at its front is exactly Pokémon-sized.",
+  "query": "What will you do?",
+  "invalidSelection": "The machine has no headcanon about this Pokémon.",
+  "option": {
+    "1": {
+      "label": "Step Into the Machine",
+      "tooltip": "(?) The machine rewrites one of your lore-touched Pokémon according to… fan theory",
+      "selected": "The machine whirs violently. Somewhere, a message board erupts in vindication."
+    },
+    "2": {
+      "label": "Back Away Slowly",
+      "tooltip": "(-) Leave the lore unwritten",
+      "selected": "The machine's hum turns distinctly passive-aggressive as you leave."
+    }
+  },
+  "lore": {
+    "ditto": "The failed clone remembers what it was meant to be!$@s{level_up_fanfare}{{pokemonName}} became the Mew it always dreamed of — though old habits die hard.",
+    "mew": "The original learns what its copy endured!$@s{level_up_fanfare}{{pokemonName}} became a Ditto — but its power remains undiminished. It cannot Transform. It refuses to.",
+    "kabutops": "Team Plasma's blueprints, a fresher fossil!$@s{level_up_fanfare}{{pokemonName}} became a Genesect of the ancient seas!",
+    "genesect": "The armor comes off at last!$@s{level_up_fanfare}{{pokemonName}} remembered being a Kabutops — and kept the cannon.",
+    "cubone": "The skull comes off. The mother was waiting.$@s{level_up_fanfare}{{pokemonName}} was reunited — her spirit fights beside it forever.",
+    "kangaskhan": "She picks up the small bone club and does not let go.$@s{level_up_fanfare}{{pokemonName}} armors up in memory of what was lost.",
+    "gengar": "The shadow peels off the wall and takes shape!$@s{level_up_fanfare}{{pokemonName}} became the Clefable it was always mimicking!",
+    "clefable": "Every moonlit thing casts a shadow…$@s{level_up_fanfare}{{pokemonName}} became its own shadow — and kept the moonlight.",
+    "porygon": "ERROR ERROR M~ N?!$@s{level_up_fanfare}{{pokemonName}} h4s bec0me… s0mething gl1tch3d. Its data will never sort correctly again.",
+    "dragonair": "The timeline where it kept its grace!$@s{level_up_fanfare}{{pokemonName}} became what it should always have become.",
+    "raichu": "Restored from the cutting room floor!$@s{level_up_fanfare}{{pokemonName}} became Gorochu — fangs, horns, and all!",
+    "arcanine": "The Pokédex said Legendary. The Pokédex does not lie.$@s{level_up_fanfare}{{pokemonName}} finally lives up to its category.",
+    "sudowoodo": "Fake it until you make it!$@s{level_up_fanfare}{{pokemonName}} finally became a real tree. It is no longer afraid of rain.",
+    "luvdisc": "The evolution chart everyone drew in the margins!$@s{level_up_fanfare}{{pokemonName}} became what the playground always promised.",
+    "vaporeon": "The Brass Tower burns. The rainbow wings descend.$@s{level_up_fanfare}{{pokemonName}} was reborn as Suicune — the water it once was still flows within.",
+    "jolteon": "The Brass Tower burns. The rainbow wings descend.$@s{level_up_fanfare}{{pokemonName}} was reborn as Raikou — no beast alive matches its old speed.",
+    "flareon": "The Brass Tower burns. The rainbow wings descend.$@s{level_up_fanfare}{{pokemonName}} was reborn as Entei — burning hotter than any legend."
+  },
+  "outro": "The machine powers down with what can only be described as smug satisfaction."
+}

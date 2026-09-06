@@ -1,0 +1,21 @@
+{
+  "intro": "A chill runs through the clearing. Something in the shadows is... giggling?",
+  "speaker": "Gengar",
+  "introDialogue": "Kekekeke... look at you. Barely standing. Wounds everywhere. Tell me, trainer...$Do you LIKE being on the brink of death?$Kekeke... I do. It's where all the interesting things happen.$My little friend here has lived on that brink its whole life. Beat it, and one of yours can learn what it knows.",
+  "title": "Brink of Death",
+  "description": "The Gengar's wager: defeat its Shedinja, and one of your Pokémon may embrace the grave's power — the Ghost type, and one of three spectral fates chosen by... well, by fate.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Accept the Wager",
+      "tooltip": "(+) Pledge a Pokémon; win to grant it the Ghost type and a random spectral ability\n(-) Your battered party must defeat the Shedinja",
+      "selected": "Kekekeke... choose your volunteer. My friend does so love company on the brink."
+    },
+    "2": {
+      "label": "Back Away Slowly",
+      "tooltip": "(-) No reward\n(+) No coffin",
+      "selected": "Kekeke... yes, run along. The brink will still be here next time.$It always is."
+    }
+  },
+  "outro": "The Gengar melts into the shadows, still snickering. The chill lingers a moment longer than it should."
+}

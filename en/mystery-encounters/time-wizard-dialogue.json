@@ -1,0 +1,28 @@
+{
+  "intro": "The air grows thin, and the sounds of the wild fall away.$A robed figure stands at a fork in the path, turning an hourglass over and over…",
+  "speaker": "Time Wizard",
+  "introDialogue": "Ohoho… I can see it, you know.$One of yours carries an echo — a shape it once wore eons ago, or one it has yet to wear.$I can pull that thread. But time… time always demands balance.",
+  "title": "The Time Wizard",
+  "description": "The wizard offers to drag one of your Pokémon through time itself, remaking it as its ancient or futuristic Paradox relative.\nBut the timeline will fracture — and everyone else in your party will be reduced to a drifting Unown, keeping only their memories: their typing and their moves.",
+  "query": "Will you accept the bargain?",
+  "option": {
+    "1": {
+      "label": "Accept the Bargain",
+      "tooltip": "(+) Chosen Pokémon becomes its Paradox form\n(-) ALL other party members become Unown",
+      "eraPrompt": "Which thread of time shall I pull?",
+      "era": {
+        "past": "The distant past… ({{speciesName}})",
+        "future": "The far future… ({{speciesName}})"
+      },
+      "selected": "The wizard shatters the hourglass.$Sand pours upward. The world folds…"
+    },
+    "2": {
+      "label": "Refuse",
+      "tooltip": "(-) No Rewards",
+      "selected": "The wizard shrugs and rights the hourglass.$\"Another timeline, perhaps.\""
+    }
+  },
+  "invalidSelection": "This Pokémon has no echo in another era.",
+  "transformationComplete": "When the world settles, {{paradoxName}} stands before you —\nand the rest of your team drifts in eerie silence…",
+  "outro": "The fork in the path is empty.\nOnly a few grains of sand remain, falling slowly… upward."
+}

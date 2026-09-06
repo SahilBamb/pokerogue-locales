@@ -1,0 +1,21 @@
+{
+  "intro": "A cheerful woman waves you down from beside a picnic blanket covered in bottles and blankets.",
+  "speaker": "Breeder Bonnie",
+  "introDialogue": "Oh! Are those your little ones?$They look… underfed, if you don't mind me saying.$My darlings drink only the finest milk. Care to see the difference it makes?",
+  "title": "The Doting Breeder",
+  "description": "Breeder Bonnie's baby Pokémon are absurdly well-nourished — each one clutches a bottle of its own. She'll happily part with a spare, but only for someone who can out-battle her pampered brood.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Accept Her Challenge",
+      "tooltip": "(-) Battle Pampered Baby Pokémon\n(+) Baby Bottle",
+      "selected": "\"Wonderful! Don't hold back on account of their size, dear.\""
+    },
+    "2": {
+      "label": "Politely Decline",
+      "tooltip": "(-) No Rewards",
+      "selected": "\"Suit yourself! Do feed those little ones, won't you?\""
+    }
+  },
+  "outro": "\"My, my — you've earned this. Take good care of your little one!\""
+}

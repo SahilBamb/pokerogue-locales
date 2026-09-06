@@ -64,5 +64,11 @@
   "postSummonSwordOfRuin": "{{pokemonNameWithAffix}}’s Sword of Ruin lowered the {{statName}}\nof all surrounding Pokémon!",
   "postSummonTabletsOfRuin": "{{pokemonNameWithAffix}}’s Tablets of Ruin lowered the {{statName}}\nof all surrounding Pokémon!",
   "postSummonBeadsOfRuin": "{{pokemonNameWithAffix}}’s Beads of Ruin lowered the {{statName}}\nof all surrounding Pokémon!",
-  "preventBerryUse": "{{pokemonNameWithAffix}} is too\nnervous to eat berries!"
+  "preventBerryUse": "{{pokemonNameWithAffix}} is too\nnervous to eat berries!",
+  "gourmandBasicMeal": "{{pokemonNameWithAffix}} scrounged up a basic meal!",
+  "gourmandGoodMeal": "{{pokemonNameWithAffix}} found a good meal!",
+  "gourmandGreatMeal": "{{pokemonNameWithAffix}} discovered a great meal!",
+  "gourmandAmazingMeal": "{{pokemonNameWithAffix}} devoured an amazing meal!",
+  "gourmandLifeChangingMeal": "{{pokemonNameWithAffix}} savored a life-changing meal!!!",
+  "timeTravel": "{{pokemonNameWithAffix}} slipped through time!"
 }

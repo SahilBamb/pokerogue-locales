@@ -1,0 +1,19 @@
+{
+  "intro": "The air ahead is... wrong. A seam of shimmering static hangs where the path should be, and through it the colors are all slightly off.",
+  "title": "The Tear",
+  "description": "A rip in reality. Through it you can see this same route — but the creatures moving on the other side are @[TOOLTIP_TITLE]{not quite the ones you know}. The tear hums. It will not stay open long.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Step Through",
+      "tooltip": "(?) The next stretch of your journey happens on the other side",
+      "selected": "You step through the seam. Reality reasserts itself — but not the one you left. Everything here is Δ."
+    },
+    "2": {
+      "label": "Back Away",
+      "tooltip": "(-) Leave the tear alone",
+      "selected": "You give the seam a wide berth. Behind you, something on the other side watches you go."
+    }
+  },
+  "outro": "The tear seals itself without a sound."
+}

@@ -1,0 +1,23 @@
+{
+  "intro": "A figure in a stained lab coat steps out from behind a rock, staring at your party with wide, delighted eyes.",
+  "speaker": "The Geneticist",
+  "introDialogue": "Three. THREE of the same specimen, kept and cherished!$Do you know how rare it is to meet someone who appreciates beautiful redundancy?$Common splicers waste half a creature. I discard nothing. Let me show you what duplication is truly for.",
+  "title": "The Geneticist",
+  "description": "The Geneticist offers a splice far beyond any DNA Splicer: choose a body and a material, and the engineered fusion will wield both their abilities at once, inherit the strict best of two stats, and bear a typing of your design.\nThe material will be consumed. The fusion's dormant passive will be forever spent.",
+  "query": "Will you accept the splice?",
+  "option": {
+    "1": {
+      "label": "Offer Two Pokémon",
+      "tooltip": "(+) Engineered fusion: both abilities, hybrid vigor stats, chosen typing\n(-) The material Pokémon is consumed",
+      "materialPrompt": "And which shall be the material?",
+      "selected": "The Geneticist's machine hums to life…$\"Hold still. Perfection takes a moment.\""
+    },
+    "2": {
+      "label": "Refuse",
+      "tooltip": "(-) No Rewards",
+      "selected": "The Geneticist sighs and shutters the machine.$\"A waste. All that beautiful redundancy…\""
+    }
+  },
+  "spliceComplete": "The chamber opens, and {{splicedName}} steps out — reborn!$Hybrid vigor surges through its {{vigorStat1}} and {{vigorStat2}}!",
+  "outro": "The Geneticist packs up the machine, muttering happily about your contribution to science."
+}

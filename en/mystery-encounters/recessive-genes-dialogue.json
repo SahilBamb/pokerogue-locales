@@ -1,0 +1,28 @@
+{
+  "intro": "A researcher in a stained lab coat waves you over, surrounded by centrifuges that are definitely not licensed.",
+  "speaker": "Gene Doctor",
+  "introDialogue": "Every Pokémon carries a sleeping self — the ability written in its genes but never expressed.$For a fee, I can wake it. Precisely. Permanently.$...Or, if you're short on funds, there's always the roulette. The genes decide. The genes are not always kind.",
+  "title": "Recessive Genes",
+  "description": "The doctor offers two services: pay gold to awaken one Pokémon's HIDDEN ABILITY (guaranteed, permanent), or spin the free Gene Roulette — its ability is re-rolled at random among everything its species can carry.",
+  "query": "Which service?",
+  "invalidSelection": "Its hidden self is already awake — or it has none.",
+  "option": {
+    "1": {
+      "label": "The Awakening",
+      "tooltip": "(-) Costs gold\n(+) One Pokémon's ability becomes its HIDDEN ability, permanently",
+      "disabledButtonTooltip": "You can't afford the procedure.",
+      "selected": "Hold it steady. The sleeping self wakes... now."
+    },
+    "2": {
+      "label": "Gene Roulette",
+      "tooltip": "(+) Free: ability re-rolled among ALL its species' abilities\n(-) The genes decide. The genes are not always kind.",
+      "selected": "Round and round the double helix goes! Where it stops — well. Let's find out together."
+    },
+    "3": {
+      "label": "Decline Treatment",
+      "tooltip": "(-) No reward",
+      "selected": "Wise, perhaps. The genes keep their secrets a little longer."
+    }
+  },
+  "outro": "The doctor is already elbow-deep in the next centrifuge before you've finished walking away."
+}

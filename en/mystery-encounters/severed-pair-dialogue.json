@@ -1,0 +1,19 @@
+{
+  "intro": "Two {{pairName}} block the path ahead, moving in perfect, unsettling unison.$Each mirrors the other's every breath — as if they were once a single being…",
+  "title": "The Severed Pair",
+  "description": "The pair circles you as one mind in two bodies. Something about them feels incomplete — and whatever severed them left behind the means to join what was divided.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Battle the Pair",
+      "tooltip": "(-) Fight Two Bosses at Once\n(+) DNA Splicers",
+      "selected": "The two {{pairName}} shriek in unison and attack as one!"
+    },
+    "2": {
+      "label": "Leave Them Be",
+      "tooltip": "(-) No Rewards",
+      "selected": "You give the eerie pair a wide berth.$Their synchronized gaze follows you until you're out of sight."
+    }
+  },
+  "outro": "Where the pair fell, a strange device glimmers —\nthe very thing that once split them apart."
+}

@@ -1,0 +1,20 @@
+{
+  "intro": "A warm glow flickers up ahead.$A Victini twirls and hops in the middle of the path, tracing little V's of flame in the air as it dances!",
+  "title": "Victory Victini",
+  "description": "The Victory Pokémon beams at you, still dancing, and beckons you closer. Its boundless energy promises fortune — but whether that fortune comes from besting it or joining it is up to you.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Attack Victini",
+      "tooltip": "(-) Fight a Mythical Boss\n(+) Very Rare Rewards",
+      "selected": "Victini's smile vanishes.$Flames gather around it in a blazing V as it accepts your challenge!"
+    },
+    "2": {
+      "label": "Dance with It",
+      "tooltip": "(-) A random stat is drained to nothing\n(+) The drained power surges into another stat",
+      "selected": "Your Pokémon steps forward and mirrors Victini's dance…$Faster and faster they spin, until a colossal V-Create erupts and swallows them both!"
+    }
+  },
+  "danceComplete": "The flames clear, and {{pokemonName}} stands transformed!$Its {{drainedStat}} was drained away — and {{amount}} points of raw power surged into its {{boostedStat}}!",
+  "outro": "The dancing flame is gone.\nOnly a faint warmth remains, like a promise of victory…"
+}

@@ -1,0 +1,21 @@
+{
+  "intro": "A cloaked figure has set up a small counter in the shade. The sign reads: GENES BOUGHT & SOLD. NO REFUNDS.",
+  "speaker": "Ability Broker",
+  "introDialogue": "Ah, a customer with inventory. I deal in potential, friend — the talents Pokémon are born with but never show.$My stock all comes with their hidden gifts... awake. The price is two of yours. Any two. Final sale.",
+  "title": "The Ability Broker",
+  "description": "Trade away TWO of your party members — permanently — and the broker hands you a random Pokémon with its HIDDEN ABILITY already active. The quality of the merchandise scales with what you give up.",
+  "query": "Make the trade?",
+  "option": {
+    "1": {
+      "label": "Trade Two Pokémon",
+      "tooltip": "(+) Receive a random Pokémon with its Hidden Ability active (scales with what you trade)\n(-) Two party members, gone forever",
+      "selected": "Pleasure doing business. Don't ask where they go. You wouldn't believe me anyway."
+    },
+    "2": {
+      "label": "Keep Your Team",
+      "tooltip": "(-) No reward",
+      "selected": "Sentiment! Terrible for business, wonderful for the soul. Off you go."
+    }
+  },
+  "outro": "The broker's counter folds itself into a briefcase. By the time you blink, there's nothing in the shade at all."
+}

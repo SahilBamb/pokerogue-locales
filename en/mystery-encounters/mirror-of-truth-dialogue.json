@@ -1,0 +1,20 @@
+{
+  "intro": "An ancient standing mirror blocks the path. Your reflections in it are... not quite doing what you're doing.",
+  "title": "The Mirror of Truth",
+  "description": "The mirror shows every Pokémon as it truly is — its stat spread reversed. To claim that truth, you must defeat your own reflections. Win, and you choose who gazes in. Lose, and the mirror chooses for you.",
+  "query": "Face the mirror?",
+  "option": {
+    "1": {
+      "label": "Face Your Reflections",
+      "tooltip": "(+) Win: flip ONE chosen Pokémon's stat spread\n(-) Lose: the mirror flips SEVERAL at random",
+      "selected": "The glass ripples. Your reflections step out of the frame."
+    },
+    "2": {
+      "label": "Avert Your Eyes",
+      "tooltip": "(-) No reward\n(+) No unwanted truths",
+      "selected": "You edge past the mirror, eyes on the ground. Something in the glass sighs."
+    }
+  },
+  "outroFailed": "The glass drinks the light. When your vision clears, some of your Pokémon look... rearranged. The mirror hums, satisfied.",
+  "outro": "The mirror stands silent now, showing only ordinary reflections. Mostly."
+}

@@ -1,0 +1,27 @@
+{
+  "intro": "A woman in designer everything storms toward you, heels striking the ground like war drums.$A vein in her forehead has its own heartbeat.",
+  "speaker": "The Mother",
+  "introDialogue": "EXCUSE ME. Yes, YOU.$Did you or did you not run off with my little angel's {{mythicalName}}?!$My baby said it was left with some… some VAGRANT, and I have been looking for HOURS.$Do you have ANY idea who my husband is?! I will be speaking to the Pokémon League, the police chief, AND your manager!",
+  "title": "The Mythical Mom",
+  "description": "There is no reasoning with her. There is only the {{mythicalName}}, her lawyers, and the six-figure Pokémon she keeps for occasions exactly like this one.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Hand It Over",
+      "tooltip": "(-) Return the {{mythicalName}}\n(+) Avoid an extremely difficult battle",
+      "selected": "\"Hmph. I suppose SOME people can follow basic instructions.\"$She snatches the Poké Ball without a word of thanks."
+    },
+    "2": {
+      "label": "Refuse",
+      "tooltip": "(-) Fight her legendary team. Yes, all of them.\n(+) Maybe keep the {{mythicalName}}… for a price",
+      "selected": "Her eye twitches.$\"Oh. OH. You want to do this the HARD way.\"$\"Darlings! Mummy needs you!\""
+    }
+  },
+  "dontHaveIt": "\"You LOST it?! You absolute—\"$She doesn't finish the sentence. The Poké Balls are already flying.",
+  "handedOver": "{{mythicalName}} returns to its owner's family.$It gives you one last, ancient look.",
+  "buyBackPrompt": "\"Fine. FINE. You're clearly some kind of gifted delinquent.$If you want the {{mythicalName}} so badly… ₽{{price}}. CASH. That's what it's worth to make you go away.\"$Pay ₽{{price}} to keep {{mythicalName}}?",
+  "boughtBack": "You hand over a truly obscene amount of money.$The {{mythicalName}} is yours now — legally, even.",
+  "cannotAfford": "You turn out your pockets. She stares at the lint with visible disgust.$\"Pathetic. Give it here.\"",
+  "reclaimed": "She recalls the {{mythicalName}} and turns on her heel.$\"The League WILL be hearing about this.\"",
+  "outro": "You can hear her complaining to someone on the phone\nlong after she's out of sight."
+}

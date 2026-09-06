@@ -1,0 +1,20 @@
+{
+  "intro": "A shimmering, mirror-like creature blocks your path.$Its formless surface ripples, reflecting your team back at you…",
+  "title": "The Mega Mirror",
+  "description": "The creature seems to be studying your Pokémon, searching for untapped potential. You sense that it wants to test your bond — by becoming the very power one of your Pokémon has yet to unlock.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Face the Reflection",
+      "tooltip": "(-) Fight a powerful Mega-Evolved Boss\n(+) Earn its Mega Stone",
+      "selected": "The creature's surface swirls violently…$It takes the shape of {{selectedPokemon}} — and erupts with Mega Energy!"
+    },
+    "2": {
+      "label": "Turn Away",
+      "tooltip": "(-) No Rewards",
+      "selected": "You avert your eyes from the mirror.$The creature ripples once, then melts back into the shadows."
+    }
+  },
+  "invalidSelection": "This Pokémon has no unclaimed Mega form.",
+  "outro": "The shattered reflection dissolves into motes of light…$Something solid remains where it stood!"
+}

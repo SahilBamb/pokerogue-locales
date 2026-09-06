@@ -1,0 +1,27 @@
+{
+  "intro": "A man stands by the path. He is of average height. Average build. His hair is a color.",
+  "speaker": "Norman Al Guy",
+  "introDialogue": "Oh! You noticed me. Most people's eyes just… slide right off.$I'm Norman Al Guy. I collect Normal-type Pokémon. And you—$FIVE pure Normal-types?! No gimmicks, no second typings, no legendary crutches?$You… you GET it. The others call it boring. I call it UNDILUTED.",
+  "title": "The Normal One",
+  "description": "The most average man you have ever seen is nearly vibrating with excitement over your team composition. He offers a reward for your devotion to @[TOOLTIP_TITLE]{the purest of all types}: a legendary item of profound normalcy, or a companion from his personal collection.",
+  "query": "What will you choose?",
+  "itemGranted": "{{pokemonName}} received the {{itemName}}!",
+  "option": {
+    "1": {
+      "label": "Accept an Item",
+      "tooltip": "(+) Choose one of three one-of-a-kind Normal-type items",
+      "selected": "An item that embodies normalcy so completely it transcends it. Use it well."
+    },
+    "2": {
+      "label": "Accept a Companion",
+      "tooltip": "(+) Receive a rare Normal-type Pokémon",
+      "selected": "This one's from my personal collection. Perfectly normal. Devastatingly so."
+    },
+    "3": {
+      "label": "Decline Politely",
+      "tooltip": "(-) Leave",
+      "selected": "Ah. Well. That's… normal, I suppose. Most people walk away. It's fine. This is fine."
+    }
+  },
+  "outro": "You look back. You can no longer tell which person he was. Perhaps that's the point."
+}

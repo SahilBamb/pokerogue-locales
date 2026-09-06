@@ -1,0 +1,27 @@
+{
+  "intro": "A man with aggressively styled hair is filming himself with a ring light in the middle of the wilderness.",
+  "speaker": "AlphaAdder",
+  "introDialogue": "Yo yo YO, what's up Venom Nation, you will NOT believe who the algorithm just delivered.$Five Poison-types. FIVE. King, I saw your party and I literally had to pause my sigma grindset morning routine.$Everyone says toxicity is a problem. Wrong. Toxicity is a LIFESTYLE. And you, my friend, are LIVING it.$The haters resist us. The system is immune to us. We. Keep. Seeping. Through.$Look, I don't do this for everyone, but you're built different. Pick your sponsorship package.",
+  "title": "The Toxic One",
+  "description": "A manosphere influencer who calls his followers @[TOOLTIP_TITLE]{Venom Nation} is offering you a brand deal for your commitment to toxicity: a mystery item from his merch line, or a Pokémon from his personal collection.",
+  "query": "What will you choose?",
+  "itemGranted": "{{pokemonName}} received the {{itemName}}!",
+  "option": {
+    "1": {
+      "label": "Accept the Merch",
+      "tooltip": "(+) A random one of three one-of-a-kind Poison items",
+      "selected": "No refunds, no returns, no liability. That's the Venom Nation guarantee. SMASH that poison button."
+    },
+    "2": {
+      "label": "Accept a Companion",
+      "tooltip": "(+) Receive a rare Poison-type Pokémon",
+      "selected": "This one's been with me since before I was famous. Treat it right. Or don't. Boundaries are beta."
+    },
+    "3": {
+      "label": "Log Off",
+      "tooltip": "(-) Leave",
+      "selected": "Wow. Unfollowed, unsubscribed, and honestly? Blocked. You were never really Venom Nation."
+    }
+  },
+  "outro": "As you leave, you hear him telling his camera that this encounter was 'a certified W'."
+}

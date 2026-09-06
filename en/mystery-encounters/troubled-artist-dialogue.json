@@ -1,0 +1,21 @@
+{
+  "intro": "You round a corner and find a Smeargle sitting before a blank canvas.$Its tail droops. It's been staring for hours, struggling to think of what to paint…",
+  "introGrafaiai": "You round a corner and find a Grafaiai halfway up a wall —$it's having no trouble at all, gleefully graffitiing the whole building!",
+  "title": "The Troubled Artist",
+  "description": "The artist notices your Pokémon watching with curiosity. Perhaps inspiration flows both ways — it seems willing to teach one of them {{moveName}}.",
+  "descriptionGrafaiai": "The graffiti artist grins down at your Pokémon, spray-tail dripping with poison paint. It offers to teach one of them its secret technique: {{moveName}}.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Learn the Technique",
+      "tooltip": "(+) Teach a Pokémon {{moveName}}",
+      "selected": "The artist works with {{selectedPokemon}}, stroke by stroke…"
+    },
+    "2": {
+      "label": "Leave It to Its Art",
+      "tooltip": "(-) No Rewards",
+      "selected": "You quietly back away.$Art takes time."
+    }
+  },
+  "outro": "The artist returns to its work,\nlooking a little more inspired than before."
+}

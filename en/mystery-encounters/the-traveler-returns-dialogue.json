@@ -1,0 +1,23 @@
+{
+  "intro": "That hopelessly out-of-place trainer is back, waving like you're old friends. They remember you. They kept the receipt.",
+  "speaker": "Faraway Traveler",
+  "introDialogue": "FOUND you! Ha! Told you I never break a promise.$Now then — which of yours wants to see how the other regions do it? The change is... quite permanent. Home is where the form is, as we say.",
+  "title": "The Traveler Returns",
+  "description": "The traveler honors the favor: choose one eligible Pokémon and it will be converted into its regional counterpart — permanently. If nothing in your party has a regional form, they'll apologize and be on their way.",
+  "query": "Call in the favor?",
+  "invalidSelection": "That one has no faraway counterpart.",
+  "option": {
+    "1": {
+      "label": "Call in the Favor",
+      "tooltip": "(+) Convert one eligible Pokémon into its regional form (permanent)\n(-) Permanent is permanent",
+      "selected": "Excellent choice! Hold still, this tickles across region borders..."
+    },
+    "2": {
+      "label": "Decline Politely",
+      "tooltip": "(-) The favor expires",
+      "selected": "Keeping them local? I respect it. The promise dies happy, at least."
+    }
+  },
+  "outroNoEligible": "The traveler checks your whole party twice, sighs, and tips an apologetic hat. \"Geography, alas. The offer dies a natural death.\"",
+  "outro": "The traveler waves until they are entirely out of sight, which takes an oddly long time."
+}

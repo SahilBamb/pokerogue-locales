@@ -1,0 +1,26 @@
+{
+  "intro": "A trainer in hopelessly out-of-place clothing studies a map that is definitely upside down.",
+  "speaker": "Faraway Traveler",
+  "introDialogue": "Oh! A local! Wonderful. I'm from... well, from several very far aways, actually.$My whole team came with me — you won't find shapes like these around here, I promise you that.$Care to see how the other regions do it? Winner gets... hmm. Let's say, if YOU win, I share a little piece of home.",
+  "title": "The Faraway Traveler",
+  "description": "The traveler battles with regional forms — Alolan, Galarian, Hisuian. Defeat them and choose your prize: one of three random base-stage regional Pokémon now, or a promise — they'll return later to convert one of YOUR Pokémon into its regional counterpart.",
+  "query": "Take the battle?",
+  "option": {
+    "1": {
+      "label": "Battle for a Companion",
+      "tooltip": "(+) Win: choose one of three random base-stage regional Pokémon\n(-) A trainer battle",
+      "selected": "A new friend it is! Alright, my far-flung dears — show them where we're from!"
+    },
+    "2": {
+      "label": "Battle for a Favor",
+      "tooltip": "(+) Win: the traveler will return later to convert one of your Pokémon into a regional form\n(-) A trainer battle, and patience",
+      "selected": "A promise, then! I never break those — I've carried some across three regions. Now: defend yourself!"
+    },
+    "3": {
+      "label": "Wave Them Off",
+      "tooltip": "(-) No reward",
+      "selected": "No time for tourism? Shame. Travel broadens the type chart, you know."
+    }
+  },
+  "outro": "The traveler re-folds their map incorrectly and strides off in what is probably the wrong direction."
+}

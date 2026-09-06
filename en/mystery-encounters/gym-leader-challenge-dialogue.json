@@ -1,0 +1,23 @@
+{
+  "intro": "Someone is waiting in the road ahead — and they carry themselves like a champion.$It's {{leaderName}}, far from their Gym!",
+  "speaker": "{{leaderName}}",
+  "introDialogue": "Well now! A trainer with fire in their eyes.$I'm traveling to sharpen my skills — and I never pass up a worthy opponent.$Beat me at full strength, and I'll entrust you with a partner I've raised myself.",
+  "title": "Gym Leader Challenge",
+  "description": "{{leaderName}} is offering an exhibition match against their true team — no badges, no rules, just strength. The prize: their personally trained {{giftSpecies}}, unlike any other of its kind.",
+  "query": "Will you accept the challenge?",
+  "option": {
+    "1": {
+      "label": "Accept the Challenge",
+      "tooltip": "(-) Fight {{leaderName}}'s Real Team\n(+) Earn {{leaderName}}'s {{giftSpecies}}",
+      "selected": "{{leaderName}}'s expression sharpens into that of a Gym Leader.$\"Then show me everything you have!\""
+    },
+    "2": {
+      "label": "Decline Politely",
+      "tooltip": "(-) No Rewards",
+      "selected": "{{leaderName}} laughs warmly.$\"Another time, then. The road is long!\""
+    }
+  },
+  "giftNickname": "{{leaderName}}'s {{speciesName}}",
+  "giftGranted": "{{giftName}} joined your party!$It carries the pride of its trainer — and power no ordinary Pokémon could know.",
+  "outro": "{{leaderName}} waves as they head down the road.\n\"Take good care of my partner — and never stop climbing!\""
+}

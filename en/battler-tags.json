@@ -95,5 +95,7 @@
   "grudgeOnAdd": "{{pokemonNameWithAffix}} wants its target to bear a grudge!",
   "grudgeLapse": "{{pokemonNameWithAffix}} lost all of {{moveName}}’s PP due to the grudge!",
   "magicCoatOnAdd": "{{pokemonNameWithAffix}} shrouded itself with Magic Coat!",
-  "supremeOverlordOnAdd": "{{pokemonNameWithAffix}} gained strength from the fallen!"
+  "supremeOverlordOnAdd": "{{pokemonNameWithAffix}} gained strength from the fallen!",
+  "quilledOnAdd": "{{pokemonNameWithAffix}} was impaled with quills!",
+  "quilledLapse": "{{pokemonNameWithAffix}} is hurt by the embedded quills!"
 }

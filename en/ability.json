@@ -173,7 +173,7 @@
   },
   "rainDish": {
     "name": "Rain Dish",
-    "description": "The Pokémon has ¹⁄₁₆ of its max HP restored at the end of every turn in rain."
+    "description": "The Pokémon gradually regains HP in rain — and sips from the dish whenever it uses a Water-type move."
   },
   "sandStream": {
     "name": "Sand Stream",
@@ -189,7 +189,7 @@
   },
   "earlyBird": {
     "name": "Early Bird",
-    "description": "The Pokémon awakens from sleep twice as fast as other Pokémon."
+    "description": "The early bird gets the worm. The Pokémon's moves gain priority on the first turn of every battle."
   },
   "flameBody": {
     "name": "Flame Body",
@@ -221,7 +221,7 @@
   },
   "cuteCharm": {
     "name": "Cute Charm",
-    "description": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of becoming infatuated if the attacker and the Pokémon are of opposite genders."
+    "description": "Impossibly charming. On entry it uses Attract, and any contact — given or received — may infatuate the other Pokémon."
   },
   "plus": {
     "name": "Plus",
@@ -233,7 +233,7 @@
   },
   "forecast": {
     "name": "Forecast",
-    "description": "The Pokémon transforms with the weather to change its type to Water, Fire, or Ice."
+    "description": "The Pokémon transforms with the weather to change its type to Water, Fire, or Ice. On entry, it performs the first weather-setting move it knows."
   },
   "stickyHold": {
     "name": "Sticky Hold",
@@ -285,7 +285,7 @@
   },
   "vitalSpirit": {
     "name": "Vital Spirit",
-    "description": "The Pokémon is full of vitality, and that prevents it from becoming drowsy or being put to sleep."
+    "description": "The Pokémon is full of vitality. It wakes up at the end of every turn, so even Rest can barely keep it down."
   },
   "whiteSmoke": {
     "name": "White Smoke",
@@ -297,7 +297,7 @@
   },
   "shellArmor": {
     "name": "Shell Armor",
-    "description": "A hard shell protects the Pokémon from critical hits."
+    "description": "Its shell absorbs half the damage of one hit each time it enters battle. Withdraw and Skull Bash rebuild the shell; Shell Smash casts it aside."
   },
   "airLock": {
     "name": "Air Lock",
@@ -305,7 +305,7 @@
   },
   "tangledFeet": {
     "name": "Tangled Feet",
-    "description": "Doubles the Pokémon’s evasiveness if it is confused."
+    "description": "It fights best off-balance. Evasiveness doubles while confused, it never hurts itself in confusion, and the confusion never wears off on its own."
   },
   "motorDrive": {
     "name": "Motor Drive",
@@ -329,7 +329,7 @@
   },
   "angerPoint": {
     "name": "Anger Point",
-    "description": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat."
+    "description": "The Pokémon's anger builds with every blow. Its Attack rises when hit by an attack — and maxes out when hit by a critical hit."
   },
   "unburden": {
     "name": "Unburden",
@@ -485,7 +485,7 @@
   },
   "flowerGift": {
     "name": "Flower Gift",
-    "description": "Boosts the Attack and Sp. Def stats of the Pokémon and its allies by 50% in harsh sunlight."
+    "description": "Boosts the Attack and Sp. Def stats of the Pokémon and its allies by 50% in harsh sunlight. On entry, it summons harsh sunlight."
   },
   "badDreams": {
     "name": "Bad Dreams",
@@ -493,7 +493,7 @@
   },
   "pickpocket": {
     "name": "Pickpocket",
-    "description": "When the Pokémon is hit by a contact move, it will steal a held item from the attacker."
+    "description": "Light wings, lighter fingers. Steals an item from the opposing Pokémon when it enters battle."
   },
   "sheerForce": {
     "name": "Sheer Force",
@@ -549,7 +549,7 @@
   },
   "flareBoost": {
     "name": "Flare Boost",
-    "description": "When the Pokémon is burned, the power of its special moves is boosted by 50%."
+    "description": "When the Pokémon is burned, the power of its special moves is boosted by 50%. It takes no damage from its burn."
   },
   "harvest": {
     "name": "Harvest",
@@ -717,7 +717,7 @@
   },
   "symbiosis": {
     "name": "Symbiosis",
-    "description": "When an ally consumes an item, the Pokémon gives its own held item to that ally."
+    "description": "The Pokémon passes its item to an ally that has used up an item."
   },
   "toughClaws": {
     "name": "Tough Claws",
@@ -905,7 +905,7 @@
   },
   "psychicSurge": {
     "name": "Psychic Surge",
-    "description": "Turns the ground into Psychic Terrain for 5 turns when the Pokémon enters a battle." 
+    "description": "Turns the ground into Psychic Terrain for 5 turns when the Pokémon enters a battle."
   },
   "mistySurge": {
     "name": "Misty Surge",
@@ -1262,5 +1262,565 @@
   "spicySpray": {
     "name": "Spicy Spray",
     "description": "When the Pokémon takes damage from a move, it burns the attacker."
+  },
+  "risingFury": {
+    "name": "Rising Fury",
+    "description": "Boosts the Pokémon’s Attack stat at the end of every turn as its fury builds."
+  },
+  "coilUp": {
+    "name": "Coil Up",
+    "description": "The Pokémon stays coiled, ready to strike. Its biting moves gain increased priority."
+  },
+  "gourmand": {
+    "name": "Gourmand",
+    "description": "An insatiable connoisseur. At the end of each turn, it finds and eats a random meal, restoring HP based on the meal's quality."
+  },
+  "unruly": {
+    "name": "Unruly",
+    "description": "The Pokémon fights hardest when out of control. Attacks it didn't choose — like the later turns of a rampage — deal 1.5× damage."
+  },
+  "feralBite": {
+    "name": "Feral Bite",
+    "description": "Its savage, frenzied bites are far crueler than they look. The added effects of its biting moves trigger far more often."
+  },
+  "grossArmor": {
+    "name": "Gross Armor",
+    "description": "A crust of hardened sludge halves damage from physical moves — but Water-type moves wash it away, dealing double damage."
+  },
+  "poisonBubble": {
+    "name": "Poison Bubble",
+    "description": "A film of toxic bubbles doubles the power of the Pokémon's Poison-type moves and halves damage taken from Grass-type moves."
+  },
+  "glowingTail": {
+    "name": "Glowing Tail",
+    "description": "Its light grows brighter and brighter. Boosts the Pokémon's Sp. Atk stat at the end of every turn."
+  },
+  "hungry": {
+    "name": "Hungry",
+    "description": "It is always, always hungry. Whenever it hits with a contact move, it steals and eats the target's held Berry."
+  },
+  "hypnotist": {
+    "name": "Hypnotist",
+    "description": "A master of the pendulum. The Pokémon's Hypnosis rarely misses, with 90% accuracy."
+  },
+  "chorusHowl": {
+    "name": "Chorus Howl",
+    "description": "It can't help but join in. Whenever any Pokémon uses a sound-based move, this Pokémon immediately responds with Howl."
+  },
+  "sunpower": {
+    "name": "Sunpower",
+    "description": "Brimming with stored sunlight, it doubles the power of the Pokémon's Fire-type moves and halves damage taken from Water-type moves."
+  },
+  "fEqualsMa": {
+    "name": "F=MA",
+    "description": "Force equals mass times acceleration. The Pokémon's contact moves calculate damage using its raw HP and Speed stats combined, instead of its Attack."
+  },
+  "hmMule": {
+    "name": "HM Mule",
+    "description": "A lifetime of chores made it strong. Its TM moves deal more damage for every TM move it knows — up to double with a full set of four."
+  },
+  "psychologicalWarfare": {
+    "name": "Psychological Warfare",
+    "description": "Boosts the Pokémon's Sp. Atk by 50%, but its single-minded focus only allows the use of one move."
+  },
+  "originalPsychic": {
+    "name": "Original Psychic",
+    "description": "A psychic of the old school. Gains the Psychic type, and its Sp. Atk and Sp. Def merge into a single, formidable Special stat."
+  },
+  "blitzkrieg": {
+    "name": "Blitzkrieg",
+    "description": "A living artillery battery. The Pokémon's ball, bomb, and cannon moves gain increased priority."
+  },
+  "loadedGun": {
+    "name": "Loaded Gun",
+    "description": "Always locked and loaded. If the Pokémon knows Water Gun, it immediately fires a half-power one after landing a damaging move."
+  },
+  "loadedInk": {
+    "name": "Loaded Ink",
+    "description": "Its ink sac is never empty. If the Pokémon knows Octazooka, it immediately fires a half-power one after landing a damaging move."
+  },
+  "mantineCover": {
+    "name": "Mantine Cover",
+    "description": "Shielded by its lifelong partner. In battle, this Pokémon uses Mantine's base HP, Defense, and Sp. Def instead of its own."
+  },
+  "eeeek": {
+    "name": "Eeeek!",
+    "description": "It panics with startling agility. The first move used against this Pokémon after it enters battle misses."
+  },
+  "extinctArmor": {
+    "name": "Extinct Armor",
+    "description": "Ancient plating hardens under duress — until it shatters. Halves damage taken while the Pokémon's HP is below maximum but above a third."
+  },
+  "matriarchy": {
+    "name": "Matriarchy",
+    "description": "The colony answers to one queen. Moves deal 50% more damage to male Pokémon, and defeating a female Pokémon raises the Pokémon's Attack and Sp. Atk."
+  },
+  "teslaTechnician": {
+    "name": "Tesla Technician",
+    "description": "A master of maximizing minimal output. Moves with 20 or less base power have their power multiplied sevenfold (multi-hit moves gain half that boost). Twineedle always receives the full boost."
+  },
+  "infernalHound": {
+    "name": "Infernal Hound",
+    "description": "The hound of hell never stops burning. After the Pokémon lands a damaging move, it immediately launches a follow-up Inferno."
+  },
+  "southpaw": {
+    "name": "Southpaw",
+    "description": "An unorthodox stance nobody sees coming. The Pokémon's punching moves deal damage using its Sp. Def stat."
+  },
+  "viltrumite": {
+    "name": "Viltrumite",
+    "description": "Its unassuming body hides impossible strength. Attack, Defense, Sp. Atk, and Sp. Def are doubled."
+  },
+  "manOWar": {
+    "name": "Man o' War",
+    "description": "Its drifting tendrils strike with venomous resilience. Physical moves deal damage using the Pokémon's Sp. Def stat."
+  },
+  "corrosiveLiquid": {
+    "name": "Corrosive Liquid",
+    "description": "Its fluids dissolve whatever they touch. Water-type moves become Poison-type and have their power boosted."
+  },
+  "pyrofauna": {
+    "name": "Pyrofauna",
+    "description": "A creature of living magma. Volcanic moves deal 30% more damage."
+  },
+  "nibble": {
+    "name": "Nibble",
+    "description": "Every bite is a meal. The Pokémon's biting moves restore HP equal to the damage dealt."
+  },
+  "doubleChomp": {
+    "name": "Double Chomp",
+    "description": "Why bite once when you can bite twice? The Pokémon's biting moves strike two times."
+  },
+  "shortFuse": {
+    "name": "Short Fuse",
+    "description": "Extremely volatile temperament. When struck by a Fire-type move it immediately detonates an Explosion; an Electric-type hit triggers Self-Destruct. It survives its own blasts."
+  },
+  "controlledBlast": {
+    "name": "Controlled Blast",
+    "description": "Mastery over its own volatility. Explosion and Self-Destruct leave the Pokémon at 1 HP instead of fainting."
+  },
+  "harbingerOfDoom": {
+    "name": "Harbinger of Doom",
+    "description": "Calamity follows wherever it goes. Disaster moves such as Hurricane, Blizzard, Earthquake, and Eruption never miss and deal 30% more damage."
+  },
+  "provocateur": {
+    "name": "Provocateur",
+    "description": "It simply cannot help itself. The Pokémon's attacks are twice as likely to poison."
+  },
+  "snakeOilSalesman": {
+    "name": "Snake Oil Salesman",
+    "description": "Everyone buys eventually. The Pokémon's Poison-type attacks hit neutrally against types that resist or are immune to Poison."
+  },
+  "compoundingToxins": {
+    "name": "Compounding Toxins",
+    "description": "The venom feeds on itself. Badly poisoned damage against opposing Pokémon racks up twice as fast."
+  },
+  "nineLives": {
+    "name": "Nine Lives",
+    "description": "A cat always lands on its feet. The first time it would faint each battle, it survives with 1 HP and its evasiveness rises sharply."
+  },
+  "keenEdge": {
+    "name": "Keen Edge",
+    "description": "Its blades are honed to perfection. Slicing moves deal 30% more damage."
+  },
+  "vengeance": {
+    "name": "Vengeance",
+    "description": "Grudges make it stronger. Ghost-type moves deal 20% more damage — 50% more when below a third of its HP."
+  },
+  "soulEater": {
+    "name": "Soul Eater",
+    "description": "It feeds on the fallen. Defeating a Pokémon restores a quarter of its max HP."
+  },
+  "hubris": {
+    "name": "Hubris",
+    "description": "Every victory inflates its ego. Defeating a Pokémon raises its Sp. Atk."
+  },
+  "growingTooth": {
+    "name": "Growing Tooth",
+    "description": "Its fangs grow with use. Using a biting move raises its Attack."
+  },
+  "antarcticBird": {
+    "name": "Antarctic Bird",
+    "description": "Sovereign of the frozen skies. Ice- and Flying-type moves deal 30% more damage."
+  },
+  "dragonslayer": {
+    "name": "Dragonslayer",
+    "description": "Forged to end the age of dragons. Deals 1.5x damage to Dragon-types and takes half damage from them."
+  },
+  "moltenDown": {
+    "name": "Molten Down",
+    "description": "Hot enough to melt stone. Fire-type moves are super effective against Rock-types."
+  },
+  "phantomPain": {
+    "name": "Phantom Pain",
+    "description": "Its touch reaches across planes. Ghost-type moves hit Normal-types."
+  },
+  "prismScales": {
+    "name": "Prism Scales",
+    "description": "Its scales refract harmful energy. Takes 30% less damage from special attacks."
+  },
+  "primalArmor": {
+    "name": "Primal Armor",
+    "description": "Ancient plating from a harsher age. Takes 50% less damage from super-effective moves."
+  },
+  "selfSufficient": {
+    "name": "Self Sufficient",
+    "description": "It needs nobody. Restores 1/16 of its max HP at the end of each turn."
+  },
+  "scare": {
+    "name": "Scare",
+    "description": "Its presence chills the mind. Lowers opposing Pokémon's Sp. Atk on entry."
+  },
+  "blitzBoxer": {
+    "name": "Blitz Boxer",
+    "description": "First out of the corner. At full HP, its punching moves gain priority."
+  },
+  "miracleGro": {
+    "name": "Miracle Gro",
+    "description": "Guaranteed results or your money back. If the Pokémon knows Growth, it has a 30% chance to use it for free at the end of every turn."
+  },
+  "ambushPredator": {
+    "name": "Ambush Predator",
+    "description": "It strikes before the prey can react. Attacks deal double damage against targets that haven't acted this turn — including those just switching in."
+  },
+  "massiveHorn": {
+    "name": "Massive Horn",
+    "description": "Almost too big to wield. Horn moves deal 50% more damage, but the user takes 25% recoil if the target survives."
+  },
+  "pickMe": {
+    "name": "Pick Me",
+    "description": "Desperate to outshine its counterpart. Attacks deal 20% more damage for each member of the opposite-gender line in the party."
+  },
+  "blueShell": {
+    "name": "Blue Shell",
+    "description": "It strikes hardest at those in first place. Water moves heal it for 1/4 of its max HP, and it deals double damage when moving after its target."
+  },
+  "aeroshell": {
+    "name": "Aeroshell",
+    "description": "Its shell is lighter than air. The Pokémon gains the Flying type, and its Defense and Speed are swapped."
+  },
+  "volcanoSnail": {
+    "name": "Volcano Snail",
+    "description": "Its molten body cooled into living metal. The Pokémon becomes pure Steel-type, and Fire-type moves raise its Defense instead of damaging it."
+  },
+  "emptyHusk": {
+    "name": "Empty Husk",
+    "description": "The bug is long gone; the mushroom moves the shell. This Pokémon's moves are chosen at random, but its Attack, Defense, and Speed are doubled."
+  },
+  "skittering": {
+    "name": "Skittering",
+    "description": "Its legs blur with practice. Using a Bug-type move sharply raises its Speed."
+  },
+  "caveDweller": {
+    "name": "Cave Dweller",
+    "description": "At home among the stones. Rock- and Ground-type moves receive the same power boost as its own types."
+  },
+  "mutualism": {
+    "name": "Mutualism",
+    "description": "The mushroom repays its host. Restores 1/16 of max HP at the end of each turn."
+  },
+  "bully": {
+    "name": "Bully",
+    "description": "It only picks fights it's winning. Moves gain priority while the Pokémon has more HP than every opposing Pokémon on the field."
+  },
+  "dogfighting": {
+    "name": "Dogfighting",
+    "description": "Sovereign of the low skies. Flying-type attacks are super effective against Flying- and Electric-types."
+  },
+  "ultraLens": {
+    "name": "Ultra Lens",
+    "description": "Nothing escapes its thousand facets. Moves are 30% more accurate, and resisted moves deal double damage."
+  },
+  "majesticMoth": {
+    "name": "Majestic Moth",
+    "description": "Its wings command reverence. On entry, the Pokémon's highest stat rises."
+  },
+  "momentum": {
+    "name": "Momentum",
+    "description": "Mass times velocity. The Pokémon's contact moves add 30% of its Speed to the attacking stat."
+  },
+  "psionic": {
+    "name": "Psionic",
+    "description": "The headaches were power all along. The Pokémon gains the Psychic type, and its head- and confusion-related moves deal double damage."
+  },
+  "luckyDuck": {
+    "name": "Lucky Duck",
+    "description": "Fortune waddles with it. The Pokémon's attacks have a drastically increased critical-hit ratio."
+  },
+  "vampiric": {
+    "name": "Vampiric",
+    "description": "It thirsts eternally. Physical moves heal it for half the damage dealt — but it takes double damage from Fire- and Fairy-type moves and withers in harsh sunlight."
+  },
+  "echolocation": {
+    "name": "Echolocation",
+    "description": "It sees with sound. Using a sound-based move raises the Pokémon's accuracy."
+  },
+  "seer": {
+    "name": "Seer",
+    "description": "It glimpses moments yet to come. Each turn, there is a 20% chance it foresees an attack — launching a Future Sight."
+  },
+  "prettyPrivilege": {
+    "name": "Pretty Privilege",
+    "description": "The rules are different for the beautiful. Fairy-type moves receive the same power boost as the Pokémon's own types and always move first in line."
+  },
+  "defensiveMindset": {
+    "name": "Defensive Mindset",
+    "description": "The best offense is a good defense. Physical moves deal damage using the Pokémon's Defense stat."
+  },
+  "forgetful": {
+    "name": "Forgetful",
+    "description": "Its memory is... what was it? On entering battle it forgets one of its moves — but using Amnesia raises both its Sp. Atk and Sp. Def."
+  },
+  "fullCamo": {
+    "name": "Full Camo",
+    "description": "It blends in the moment it appears. The Pokémon performs Camouflage upon entering battle."
+  },
+  "plasmaBeam": {
+    "name": "Plasma Beam",
+    "description": "Its beams are refined into pure force. Beam moves lose their added effects — and any recharge — but deal 30% more damage."
+  },
+  "cellularRepair": {
+    "name": "Cellular Repair",
+    "description": "Its cells knit themselves back together. The first time its HP falls below a third while on the field, it restores half its max HP."
+  },
+  "polarityShift": {
+    "name": "Polarity Shift",
+    "description": "Its magnetic field flips the rules of battle. All attacks by or against this Pokémon use inverse type matchups — weaknesses become resistances, resistances and immunities become weaknesses."
+  },
+  "conductive": {
+    "name": "Conductive",
+    "description": "Electricity flows through it, not into it. Electric-type moves deal no damage and raise its Sp. Atk instead — and using magnet-based moves charges it up too."
+  },
+  "inanimate": {
+    "name": "Inanimate",
+    "description": "Just an ordinary piece of scrap metal, surely. On turns it takes no offensive action — using status moves, missing, or switching in — it takes half damage from attacks."
+  },
+  "singer": {
+    "name": "Singer",
+    "description": "A trained voice hits its mark — mostly. All of the Pokémon's sound-based moves have exactly 90% accuracy."
+  },
+  "unexpectedlyThick": {
+    "name": "Unexpectedly Thick",
+    "description": "Nobody expects the full weight. The first move it uses after entering battle deals damage using its max HP stat."
+  },
+  "ethereal": {
+    "name": "Ethereal",
+    "description": "Wounded, it fades halfway out of this world. While below half HP, contact moves pass straight through it."
+  },
+  "auraCharge": {
+    "name": "Aura Charge",
+    "description": "Stillness gathers power. On turns it doesn't attack, its Sp. Atk rises — and its next special attack releases every stored boost in one strike."
+  },
+  "brokenRhythm": {
+    "name": "Broken Rhythm",
+    "description": "It strikes between the beats. Moves with raised or lowered priority deal 50% more damage."
+  },
+  "birdSeason": {
+    "name": "Bird Season",
+    "description": "Duck season! Rabbit season! Alternating between Grass- and Flying-type moves powers each one up."
+  },
+  "monke": {
+    "name": "Monke",
+    "description": "Reject subtlety; return to drum. After landing a super effective or not very effective hit, it performs Beat Chest if it knows the move."
+  },
+  "wavedash": {
+    "name": "Wavedash",
+    "description": "Frame-perfect aerial movement. While not grounded, contact moves cannot touch it."
+  },
+  "eggHeaded": {
+    "name": "Egg Headed",
+    "description": "Every head gets a turn. Egg-related moves strike once per head — single blows are shared between them, while flurries simply multiply."
+  },
+  "hellfire": {
+    "name": "Hellfire",
+    "description": "The gates open with it. If it knows Fire Spin, foes are trapped in the vortex on entry — and anything burning in it strikes the hound at half strength."
+  },
+  "blackFlame": {
+    "name": "Black Flame",
+    "description": "Its fire casts shadow; its shadow burns. Fire-type moves become Dark and Dark-type moves become Fire — and a Pokémon of both types draws power from each."
+  },
+  "crabBroil": {
+    "name": "Crab Broil",
+    "description": "Cooked to perfection. Its Water-type moves may boil it alive — but while burned, its physical moves hit 50% harder instead of weaker."
+  },
+  "halfDrake": {
+    "name": "Half-Drake",
+    "description": "Draconic blood runs in it. The Pokémon bears the Dragon type in addition to its own types."
+  },
+  "tormentor": {
+    "name": "Tormentor",
+    "description": "Its cackling gets under the skin. Inflicts Torment on the opposing Pokémon when it enters battle."
+  },
+  "collector": {
+    "name": "Collector",
+    "description": "Its hoard is its armor. Takes 5% less damage from attacks for each item it holds, up to 50%."
+  },
+  "megafauna": {
+    "name": "Megafauna",
+    "description": "A titan of a bygone age. The Pokémon's colossal body increases its maximum HP by its level."
+  },
+  "seedBeak": {
+    "name": "Seed Beak",
+    "description": "A lifetime of pecking seeds pays off. The Pokémon's seed moves deal 1.5x damage."
+  },
+  "triggerDiscipline": {
+    "name": "Trigger Discipline",
+    "description": "It stops spraying and aims. Damaging moves never miss, but their power is scaled by their accuracy — the wilder the move, the more it must be tamed."
+  },
+  "superSaiyan": {
+    "name": "Super Saiyan",
+    "description": "Once per battle, its gathered lightning erupts into golden power: the first Electric charge-up move sharply raises its Attack, Sp. Atk and Speed."
+  },
+  "hugeBrain": {
+    "name": "Huge Brain",
+    "description": "Doubles the Pokémon's Sp. Atk stat."
+  },
+  "pincushion": {
+    "name": "Pincushion",
+    "description": "Contact leaves a souvenir: attackers that touch the Pokémon are impaled with its quills, taking damage each turn — worse if the quills' element cuts deep."
+  },
+  "seedScatter": {
+    "name": "Seed Scatter",
+    "description": "Its seeds cling to anything that strikes it. Surviving a contact move plants a Leech Seed in the attacker."
+  },
+  "nutritiousBulb": {
+    "name": "Nutritious Bulb",
+    "description": "Its bulb stores every drop. HP restored by draining moves and effects is doubled."
+  },
+  "ectoplasm": {
+    "name": "Ectoplasm",
+    "description": "Its body is spectral matter. Ghost-type moves deal double damage, and damage taken from Ghost- and Dark-type moves is halved."
+  },
+  "halloween": {
+    "name": "Halloween",
+    "description": "Every night is the night. The Pokémon plays Trick-or-Treat on a foe before attacking each turn."
+  },
+  "sheerResolve": {
+    "name": "Sheer Resolve",
+    "description": "Removes additional effects from the Pokémon's moves — in exchange, landing one braces it, reducing damage taken by 30% until it next acts."
+  },
+  "kaiju": {
+    "name": "Kaiju",
+    "description": "A force of nature, not a Pokémon. It is locked into its first move, but its rampage grows more destructive every turn — and nothing can flinch it, weaken it, or force it back."
+  },
+  "dairyCattle": {
+    "name": "Dairy Cattle",
+    "description": "An udder that never runs dry. If it knows Milk Drink, it has a 1-in-5 chance to drink at the end of each turn."
+  },
+  "proteinMilkshake": {
+    "name": "Protein Milkshake",
+    "description": "Every sip builds muscle. Moves that restore the Pokémon's HP also raise its Attack."
+  },
+  "flockAttack": {
+    "name": "Flock Attack",
+    "description": "The flock answers the first cry. Each time it enters battle, its first Flying-type move strikes once for every member of the party."
+  },
+  "grub": {
+    "name": "Grub",
+    "description": "A body built for eating and growing. Max HP is doubled — but it devours any held berries immediately, whether it needs them or not."
+  },
+  "weightedCompass": {
+    "name": "Weighted Compass",
+    "description": "Its weighted magnetism aligns with its fortitude. While its Defense is boosted, Electric- and Steel-type moves deal damage using its Defense stat."
+  },
+  "evasiveManeuvers": {
+    "name": "Evasive Maneuvers",
+    "description": "Every dodge sharpens its focus. When an attack fails to reach it — a miss, a block, or the attacker faltering — its Sp. Atk rises sharply."
+  },
+  "waterWalker": {
+    "name": "Water Walker",
+    "description": "It builds momentum with every stroke. Using a Water-type move also raises its Speed."
+  },
+  "batesianMimicry": {
+    "name": "Batesian Mimicry",
+    "description": "Its false eyes unnerve attackers: moves aimed at it have a 50% chance to flinch away — until a landed hit breaks the illusion."
+  },
+  "phantomsCloak": {
+    "name": "Phantom's Cloak",
+    "description": "It wears the spirit world like a shawl. The Pokémon gains the Ghost type, and its Sp. Def is increased by 30%."
+  },
+  "downToEarth": {
+    "name": "Down to Earth",
+    "description": "Deeply rooted and unimpressed. Damage taken from Flying- and Psychic-type moves is halved."
+  },
+  "hulaDancer": {
+    "name": "Hula Dancer",
+    "description": "The dance never really stops. The Pokémon performs Quiver Dance upon entering battle, if it knows the move."
+  },
+  "superCharged": {
+    "name": "Super Charged",
+    "description": "It runs hotter than it should. Electric-type moves deal 1.5x damage, but the Pokémon takes 10% of the damage dealt as recoil."
+  },
+  "franchisePlayer": {
+    "name": "Franchise Player",
+    "description": "A career of highlight reels. Its signature moves deal 1.3x damage, and its Agility raises Speed to the maximum outright."
+  },
+  "airBlower": {
+    "name": "Air Blower",
+    "description": "Its wings stir a following wind. Upon entering battle, a Tailwind blows for its side for three turns."
+  },
+  "maximumVelocity": {
+    "name": "Maximum Velocity",
+    "description": "Momentum is the whole attack. The Pokémon's physical moves deal damage using its Speed stat instead of Attack."
+  },
+  "chimneySweep": {
+    "name": "Chimney Sweep",
+    "description": "It trails soot wherever it goes. Casts Smokescreen upon entering battle, and its smoke moves coat the target in Powder."
+  },
+  "amplifier": {
+    "name": "Amplifier",
+    "description": "Every noise comes back louder. The Pokémon's sound moves deal 1.3x damage, and sound moves used against it are played back at the attacker with double force."
+  },
+  "antiVenom": {
+    "name": "Anti-Venom",
+    "description": "Bred to hunt venomous prey. Its Normal-type attacks are super effective against Poison-type Pokémon."
+  },
+  "rustyEdge": {
+    "name": "Rusty Edge",
+    "description": "A pitted, tetanus-slick blade. Its Attack and Sp. Atk are halved and it loses 1/10 of its max HP each turn — but each physical hit has a 30% chance to fell the target outright."
+  },
+  "poisonBath": {
+    "name": "Poison Bath",
+    "description": "It soaks in the toxins it spreads. While an opposing Pokémon is poisoned, the Pokémon performs Venom Drench at the end of each turn."
+  },
+  "goneFeral": {
+    "name": "Gone Feral",
+    "description": "All instinct, no plan. Its Speed is increased by 50%, but it can only use the first move it chooses."
+  },
+  "boxTrick": {
+    "name": "Box Trick",
+    "description": "It reads the room before the act. On entering battle it raises Reflect against physical attackers or Light Screen against special ones, if it knows the move."
+  },
+  "invisibleWall": {
+    "name": "Invisible Wall",
+    "description": "A barrier only it can feel. While this Pokémon is on the field, every damaging move with a base power above 80 fails — no matter who used it."
+  },
+  "kickboxer": {
+    "name": "Kickboxer",
+    "description": "Trained from the hips down. The Pokémon's kicking moves deal 1.3x damage."
+  },
+  "hoardersCurse": {
+    "name": "Hoarder's Curse",
+    "description": "It knows the weight of possessions. The Pokémon deals 20% more damage for each item its target is holding."
+  },
+  "timeTravel": {
+    "name": "Time Travel",
+    "description": "It steps outside the moment. The first turn of each time it enters battle, it acts twice while its opponents cannot act at all."
+  },
+  "knockoutPunch": {
+    "name": "Knockout Punch",
+    "description": "It throws every punch to end the fight. Punching moves deal triple damage but only ever land half the time — and a miss leaves its Defense and Sp. Def lowered."
+  },
+  "arcticFur": {
+    "name": "Arctic Fur",
+    "description": "A pelt made for the ice. Damage taken from both physical and special moves is reduced by 35%."
+  },
+  "ballTrick": {
+    "name": "Ball Trick",
+    "description": "One throw is never enough. After using a ball or bomb move, the Pokémon immediately follows with Ice Ball, if it knows the move."
+  },
+  "expensiveTastes": {
+    "name": "Expensive Tastes",
+    "description": "It will not lower itself to a cheap technique. The Pokémon cannot use damaging moves below 70 base power, but every move it does use deals 1.5x damage."
   }
 }

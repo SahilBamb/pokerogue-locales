@@ -1,0 +1,23 @@
+{
+  "intro": "As you pass a narrow alleyway, a hooded figure leans out of the shadows.$It's a Scrafty — sagging skin-pants, shifty eyes, the works.",
+  "speaker": "Sketchy Scrafty",
+  "introDialogue": "Psst. Hey. Hey kid.$You look like you got some… growing pains on your team. I got somethin' for that.$Everyone's trying it. All the cool Pokémon. First taste's practically free.$…I gotta tell you it might stunt your growth. Legal thing. Whatever.",
+  "title": "The Troubled Teen",
+  "description": "The Scrafty jangles a vial of suspicious \"medicine\". It swears the stuff will make one of your middle-stage Pokémon stronger — in some ways. It was also legally required to mention the whole never-evolving-again thing.",
+  "query": "Will you buy the \"medicine\"?",
+  "option": {
+    "1": {
+      "label": "Buy the \"Medicine\"",
+      "tooltip": "(-) Costs money. Halves 2 random stats, stops evolution forever, new attitude\n(+) Doubles 2 random stats",
+      "selected": "{{selectedPokemon}} snatches the vial and downs it before you can read the label…"
+    },
+    "2": {
+      "label": "Just Say No",
+      "tooltip": "(-) No Rewards\n(+) A drug-free team",
+      "selected": "You hurry your team past the alley.$\"Your loss, kid,\" the Scrafty mutters, sinking back into the shadows."
+    }
+  },
+  "invalidSelection": "The Scrafty shakes its head. \"Nah. This stuff's for the awkward middle ones.\"",
+  "medicineTaken": "{{pokemonName}} feels… different!$Its {{doubled1}} and {{doubled2}} surged — but its {{halved1}} and {{halved2}} withered!$It has a {{natureName}} attitude now. It doesn't feel like growing up anymore.",
+  "outro": "The alley is empty now.\nSomewhere, a health class video is missing its villain."
+}

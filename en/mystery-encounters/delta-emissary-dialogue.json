@@ -1,0 +1,22 @@
+{
+  "intro": "A trainer stands perfectly still in the path. Her clothes are ordinary. Her Pokéballs shimmer like the air above hot asphalt.",
+  "speaker": "Emissary Delta",
+  "introDialogue": "You've seen the tears by now. You've seen what lives on the other side.$Where I come from, your Pokémon took different paths. Better ones, some would say.$I can show you. One of yours — remade as it exists on my side of the seam.$But proof of worth first. My team was all converted long ago. Beat them, and we'll talk.",
+  "title": "The Delta Emissary",
+  "description": "A trainer from beyond the rift offers a duel. Her team is entirely @[TOOLTIP_TITLE]{Delta Pokémon} — and if you win, she will convert one of yours to the delta form it maps to. The mapping is fixed: every species has exactly one delta destiny.",
+  "query": "What will you do?",
+  "converted": "{{pokemonName}} was remade! It is now a Delta Pokémon!",
+  "option": {
+    "1": {
+      "label": "Accept the Duel",
+      "tooltip": "(?) Battle her delta team. Victory: convert one party member to its delta form",
+      "selected": "She nods once and the air around her Pokéballs bends."
+    },
+    "2": {
+      "label": "Decline",
+      "tooltip": "(-) Leave",
+      "selected": "\"Another time, then. The seams aren't going anywhere. Neither are we.\""
+    }
+  },
+  "outro": "She walks toward nothing in particular and is gone before she gets there."
+}

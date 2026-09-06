@@ -1,0 +1,21 @@
+{
+  "intro": "The path opens into a quiet clearing.$A Medicham sits perfectly still atop a flat stone, deep in meditation. The air around it feels… heavier.",
+  "title": "Passivity is a Prize",
+  "description": "The Medicham radiates focus. It does not react to your presence at all — yet you feel an invitation. Perhaps if one of your Pokémon could match its stillness, it might reach something dormant within itself.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Join the Meditation",
+      "tooltip": "(+) Awaken a Pokémon's Passive Ability for this run\n(-) It falls into a deep sleep",
+      "selected": "Your Pokémon settles across from the Medicham and closes its eyes…$Minutes pass. Hours? The world grows very, very still."
+    },
+    "2": {
+      "label": "Leave Quietly",
+      "tooltip": "(-) No Rewards",
+      "selected": "You tiptoe past the meditating pair.$The Medicham never stirs."
+    }
+  },
+  "invalidSelection": "This Pokémon's passive ability is already awakened.",
+  "meditationComplete": "{{pokemonName}} has awakened its dormant power — {{passiveName}}!$…But it's fallen fast asleep.",
+  "outro": "When you look back, the flat stone is empty.\nThe stillness lingers a moment longer, then lifts."
+}

@@ -1,0 +1,21 @@
+{
+  "intro": "A weathered man sits beside a case of glittering stones, watching your party with narrowed eyes.",
+  "speaker": "Stone Merchant",
+  "introDialogue": "Well now. I've watched a thousand trainers pass this road, swapping partners like worn boots.$But you... these are the same souls you set out with. Every one of them.$Loyalty like that deserves something from my private case. Take a look — but choose carefully. These stones don't come off.",
+  "title": "The Stone Merchant",
+  "description": "The merchant's private case holds mega stones that bond with ANY Pokémon — granting the mega's stat gains, its typing, and its ability. A stone given to its true species simply lets it mega evolve. One stone, one recipient, no returns.",
+  "query": "Will you browse the case?",
+  "option": {
+    "1": {
+      "label": "Browse the Stones",
+      "tooltip": "(+) Choose one of the merchant's stones and its recipient\n(-) The bond is permanent",
+      "selected": "A fine eye. The stone knows its new master already."
+    },
+    "2": {
+      "label": "Politely Decline",
+      "tooltip": "(-) No reward",
+      "selected": "Hmph. Loyalty without ambition. A rarer thing still."
+    }
+  },
+  "outro": "The merchant snaps his case shut and tips his hat. \"Treat them well. All of them.\""
+}

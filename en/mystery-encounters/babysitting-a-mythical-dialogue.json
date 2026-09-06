@@ -1,0 +1,21 @@
+{
+  "intro": "A small, immaculately dressed child sits on the curb, bawling his eyes out.$Beside him floats a Pokémon you can hardly believe you're seeing.",
+  "speaker": "Rich Kid",
+  "introDialogue": "WAAAAH! All the other kids are at the park and I'm stuck here!$Mummy said I have to watch our {{mythicalName}} or I'm out of the will!$Hey… hey, YOU. You look responsible-ish.$Can you watch it while I go play?? I'll be back in like… five minutes! Promise!",
+  "title": "Babysitting a Mythical",
+  "description": "The child is already inching toward the park. The {{mythicalName}} looks at you with ancient, knowing eyes. This is either the luckiest day of your life or a terrible, terrible idea.",
+  "query": "Will you watch the {{mythicalName}}?",
+  "option": {
+    "1": {
+      "label": "\"Sure, I'll Watch It\"",
+      "tooltip": "(+) {{mythicalName}} joins your party\n(-) Surely there will be no consequences",
+      "selected": "\"THANKS! You're the best!\"$The kid sprints off toward the park without a backward glance.$The {{mythicalName}} drifts over to your side, unbothered."
+    },
+    "2": {
+      "label": "Decline Responsibly",
+      "tooltip": "(-) No Rewards\n(+) No angry mothers",
+      "selected": "The kid wails even louder as you walk away.$Somewhere, a park playdate goes unattended."
+    }
+  },
+  "outro": "Five minutes pass.\nThen ten. Then an hour…"
+}

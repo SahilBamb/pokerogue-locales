@@ -1,0 +1,19 @@
+{
+  "intro": "The ground trembles beneath your feet.$Ahead, a collapsed den crackles with crimson energy — and something enormous is stirring inside…",
+  "title": "The Collapsed Den",
+  "description": "A {{titanName}} swollen to impossible size by leaking Dynamax energy rampages within the ruined den. Driving it off won't be easy — but that energy has to condense somewhere…",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Enter the Den",
+      "tooltip": "(-) Fight a Titan Boss\n(+) Dynamax Band and Max Mushrooms",
+      "selected": "The {{titanName}} roars as you descend into the crackling ruin!"
+    },
+    "2": {
+      "label": "Back Away Slowly",
+      "tooltip": "(-) No Rewards",
+      "selected": "You retreat before the titan notices you.$The den's rumbling fades behind you."
+    }
+  },
+  "outro": "With the titan defeated, the loose Dynamax energy condenses into something you can carry…"
+}

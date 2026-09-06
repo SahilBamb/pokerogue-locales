@@ -1,0 +1,23 @@
+{
+  "intro": "A robed figure hunches over a fire, burning what look like official Move Tutor certificates one by one.",
+  "speaker": "Heretic Tutor",
+  "introDialogue": "They revoked my license, you know. Said some moves belong to some Pokémon and not to others. NATURE'S LAW, they said.$Nature's law is a filing system, friend. Any creature can learn any technique of its element — the element only asks that you prove your devotion.$Pledge a type. Face what answers. And if you're still standing, I'll teach one of yours something it was never meant to know.",
+  "title": "The Heretic Tutor",
+  "description": "Pledge a type, and a legendary Pokémon of that type will test you as a boss battle. Victory earns one of your Pokémon a move of the pledged type — drawn from the type's ENTIRE move list, not its own learnset. The heretic offers a random selection.",
+  "query": "Will you pledge?",
+  "option": {
+    "1": {
+      "label": "Pledge a Type",
+      "tooltip": "(+) Defeat the legendary to teach any move of the pledged type\n(-) A legendary boss battle",
+      "selected": "Spoken like a true apostate. Now... let's see what the element sends us."
+    },
+    "2": {
+      "label": "Report Him",
+      "tooltip": "(-) No reward\n(+) The filing system thanks you",
+      "selected": "Pah! Go on then, run back to the license bureau. The element remembers cowardice."
+    }
+  },
+  "battleWon": "MAGNIFICENT! The element has accepted you. Now — my collection. Choose a technique, and choose its heir.",
+  "teachMovePrompt": "Which forbidden technique shall be passed down?",
+  "outro": "The heretic returns to his fire, feeding it another certificate. He seems happier than anyone you've met all day."
+}
