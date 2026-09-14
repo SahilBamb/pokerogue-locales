@@ -125,7 +125,7 @@
   "transformedIntoType": "{{pokemonName}} transformed\ninto the {{type}} type!",
   "retryBattle": "Would you like to retry from the start of the battle?",
   "retryBattleDaily": "What would you like to do?",
-  "retryBattleOption":"Retry this battle",
+  "retryBattleOption": "Retry this battle",
   "retryBiomeOption": "Retry current biome",
   "quitOption": "Abandon",
   "unlockedSomething": "{{unlockedThing}}\nhas been unlocked.",
@@ -133,5 +133,7 @@
   "beatModeFirstTime": "{{speciesName}} beat {{gameMode}} Mode for the first time!\nYou received {{newModifier}}!",
   "ppReduced": "It reduced the PP of {{targetName}}’s\n{{moveName}} by {{reduction}}!",
   "mysteryEncounterAppeared": "What’s this?",
-  "pokemonTerastallized": "{{pokemonNameWithAffix}} Terastallized into the {{type}} type!"
+  "pokemonTerastallized": "{{pokemonNameWithAffix}} Terastallized into the {{type}} type!",
+  "noPokeballTheftUsed": "You've already stolen a Pokémon\nfrom this battle!",
+  "noPokeballGlitch": "The ball glitches violently\nand refuses to work on wild Pokémon!"
 }

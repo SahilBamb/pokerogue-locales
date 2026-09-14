@@ -1,0 +1,21 @@
+{
+  "intro": "Someone has been following you for three waves now.$They finally step out of the shadows — and they're wearing a uniform you'd normally battle on sight.",
+  "speaker": "Faction Admin",
+  "introDialogue": "Relax. If this were an ambush, you'd already be losing.$The boss has been reading your file. Ball theft. Evading justice. A GYM LEADER complaint file three centimeters thick.$Frankly? We're impressed. {{factionName}} doesn't recruit often, and never twice.$Run a few jobs for us. Prove the file isn't exaggerated.$And at the end of the road, there's something waiting that no Poké Mart sells.$Something… legendary. In the fully literal sense.$In or out. The offer expires when I stop talking.",
+  "title": "An Offer From {{factionName}}",
+  "description": "Your criminal reputation has attracted {{factionName}}. Join, and a three-mission chain opens — ending with a chance to capture their pivotal legendary Pokémon (a real, registered capture). Refuse, and they will never ask again.",
+  "query": "Join {{factionName}}?",
+  "option": {
+    "1": {
+      "label": "Join the Family",
+      "tooltip": "(+) Opens the 3-stage mission chain\n(+) The chain ends at a catchable legendary\n(-) Missions are hard, and declining them counts against you",
+      "selected": "Smart. The boss said you would be.$First job comes soon. We'll find you — we always find you.$Don't die before then. Paperwork's a nightmare."
+    },
+    "2": {
+      "label": "Decline the Underworld",
+      "tooltip": "(+) Keep what's left of your conscience\n(-) The faction never asks twice",
+      "selected": "…Huh. The file DID say 'unpredictable'.$Enjoy the gym leaders and the police, hero. They won't chase you any softer for this.$We won't meet again."
+    }
+  },
+  "outro": "They vanish into the tall grass with unsettling practice.$Somewhere, you suspect, a file about you just got thicker."
+}

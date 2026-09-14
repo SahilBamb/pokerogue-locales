@@ -3562,5 +3562,25 @@
     "victory": {
       "1": "@c{smile_ehalf}I… I think I fulfilled my purpose…$@c{smile_eclosed}Promise me… After you heal the world… Please… come home safe.$@c{smile_ehalf}…Thank you."
     }
+  },
+  "theft_reaction": {
+    "1": "You… you actually took them.\n$I've heard rumors about a trainer like you.\nI didn't want to believe them.",
+    "2": "Wait. Wait wait wait.\n$That ball. That was MY Pokémon.\nYou can't just— that's not a RULE anyone should be able to break!",
+    "3": "I'm reporting this.\n$I don't know to whom. I don't know how.\nBut somewhere, somehow, there is a form for this.",
+    "4": "We trained together for years…\n$Years! And you just… lobbed a ball at them\nlike they were some wild Rattata!",
+    "5": "The League will hear about this.\nThe police will hear about this.\n$My mother will DEFINITELY hear about this.",
+    "6": "So the stories are true.\n$The Ball Thief walks among us,\nand today they walked over me.",
+    "7": "Give them back!\n$…No? Just like that? \"No\"?\nWhat kind of monster answers \"no\"?!",
+    "8": "I hope they bite you.\n$They never bit me, not once.\nBut for you? I hope they make an exception.",
+    "9": "You know what the worst part is?\n$They went into that ball\nwithout even looking back…",
+    "10": "This is why we can't have nice things.\nThis is why the League has RULES.\n$This is why my therapist is rich.",
+    "11": "H-hey! That's stealing!\n$I mean, technically we all throw balls\nat other people's Pokémon— NO. No. This is different!",
+    "12": "A thief AND a good battler?\n$That's just unfair.\nPick ONE thing to be great at, like the rest of us.",
+    "13": "Fine! Keep them!\n$They snored anyway! They hogged the blankets!\n…Please take good care of them.",
+    "14": "I've battled hundreds of trainers.\n$You're the first one who made me\ncheck my pockets afterward.",
+    "15": "The audacity. The sheer, unfiltered audacity.\n$I'd be impressed if I weren't\nso incredibly victimized right now.",
+    "16": "Justice is coming for you, thief.\n$Maybe not today. Maybe not tomorrow.\nBut have you SEEN how many police officers this region has?",
+    "17": "You'll steal from the wrong trainer someday.\n$And when that day comes,\nI'll be there. Watching. Eating popcorn.",
+    "18": "One day you'll have to explain this\nto someone you can't defeat in battle.\n$I genuinely hope I'm in the room."
   }
 }

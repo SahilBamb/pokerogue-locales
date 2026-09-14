@@ -1,0 +1,21 @@
+{
+  "intro": "The road ahead is blocked.$A man in a tailored suit stands alone in the dusk, a Persian coiled at his feet.$You recognize him instantly. Everyone would.",
+  "speaker": "Giovanni",
+  "introDialogue": "Do not be alarmed. If I wanted a battle, this would already be over.$I have been watching you for some time. Your talent is… considerable.$And yet you play by rules written by people weaker than yourself. Curious.$I am here to offer you a different set of rules.$Join me. I will teach you to take what others merely borrow.$Any Pokémon, from any trainer, mid-battle. One per encounter. Forever.$The technique is priceless — but I am a businessman, not a philanthropist.$The price is half your team. The strong half. {{tollNames}} — they have caught my eye.$Sentiment is not a crime… yet. Choose.",
+  "title": "Giovanni's Offer",
+  "description": "The most wanted man in the region is offering you the ability to steal Pokémon from other trainers — permanently, one per battle. The price: {{tollCount}} of your strongest Pokémon, surrendered forever. The law will not look kindly on what you become.",
+  "query": "What will you do?",
+  "option": {
+    "1": {
+      "label": "Accept a Life of Crime",
+      "tooltip": "(-) Lose your {{tollCount}} strongest Pokémon forever\n(+) Steal one Pokémon per trainer battle for the rest of the run\n(-) The law will hunt you",
+      "selected": "A wise investment.$The technique is yours. Use it without mercy — mercy is a tax paid by the poor.$We will be watching your career with great interest.$Oh — and do avoid the police. They lack our… flexibility."
+    },
+    "2": {
+      "label": "Refuse Politely",
+      "tooltip": "(+) Leave with your team — and your conscience — intact",
+      "selected": "Predictable. The region trains its children well.$Go on, then. Back to your gym badges and your friendship speeches.$But do remember this moment, when you next lose a battle you could have… rewritten."
+    }
+  },
+  "outro": "The man is gone as if he was never there.$Only a faint smell of expensive cologne — and a single Persian hair — proves it happened."
+}

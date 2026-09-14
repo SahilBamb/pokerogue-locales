@@ -1,0 +1,21 @@
+{
+  "intro": "A coded signal only you would notice: chalk marks, a folded newspaper, a Poké Ball left conspicuously on a fence post.${{factionName}} has work for you.",
+  "speaker": "Handler",
+  "introDialogue": "Job {{stage}} of 3. Listen close.$Stage one was proving you can fight. Stage two, the {{artifact}} — currently in {{rivalName}}'s hands, which is embarrassing for everyone.$Stage three… stage three is why you signed up.$Refusing looks bad. Refusing TWICE looks terminal. Your call.",
+  "title": "{{factionName}} — Mission {{stage}}",
+  "description": "The mission chain advances: win this battle and the next stage unlocks. The third mission is the Awakening — the faction's legendary, catchable, and yours to register. Declining any mission counts as a failure; two failures and the chain closes forever.",
+  "query": "Take the job?",
+  "option": {
+    "1": {
+      "label": "Take the Job",
+      "tooltip": "(-) A hard battle\n(+) Advances the chain toward the legendary",
+      "selected": "Good. The boss will hear about this.$Go make {{factionName}} proud. Or at least feared."
+    },
+    "2": {
+      "label": "Sit This One Out",
+      "tooltip": "(+) No battle today\n(-) Counts as a failure — two failures close the chain forever",
+      "selected": "…The boss will also hear about THIS.$We don't keep a bench, friend. Warm it once more and you're off the team."
+    }
+  },
+  "outro": "The handler is gone before you can ask questions.$That seems to be a job requirement around here."
+}

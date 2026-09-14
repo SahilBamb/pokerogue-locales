@@ -1,0 +1,21 @@
+{
+  "intro": "A wild-eyed scientist is hunched over a workbench heaped with dismantled Poké Balls.$Sparks are coming off a device that is very clearly not supposed to be sparking.",
+  "speaker": "Twitchy Scientist",
+  "introDialogue": "Oh! Oh no. You saw nothing— actually, wait, no. You're EXACTLY what I need!$See, I've been reverse-engineering ball transceivers, right?$And I've discovered a firmware exploit that inverts the ownership-check bit!$In practice: your balls would work on REGISTERED Pokémon. Other trainers' Pokémon!$Downside — and it's a small, tiny, barely-worth-mentioning downside —$the wild-capture handshake gets corrupted. Permanently. No more catching wild Pokémon. Ever.$I just need a live trainer ID to flash it onto! For science!$So… how attached are you to catching things the LEGAL way?",
+  "title": "The Glitch",
+  "description": "The scientist's device can rewrite your Poké Balls: you'd be able to steal one Pokémon per trainer battle — but you would never be able to catch a wild Pokémon again this run. This is certainly a crime, even if he insists it's a 'firmware feature'.",
+  "query": "Let him flash the exploit?",
+  "option": {
+    "1": {
+      "label": "Embrace the Glitch",
+      "tooltip": "(+) Steal one Pokémon per trainer battle for the rest of the run\n(-) You can NEVER catch wild Pokémon again this run\n(-) The law will hunt you",
+      "selected": "IT WORKED! I mean— of course it worked. Calibration complete!$Your balls now operate in, uh, 'extended acquisition mode'.$If anyone in a uniform asks: you bought them like this.$DISCLAIMER: side effects include pursuit by law enforcement and a profound sense of freedom!"
+    },
+    "2": {
+      "label": "Back Away Slowly",
+      "tooltip": "(+) Leave before something explodes",
+      "selected": "No? NO?! Do you know how many ethics boards I had to dodge to build this?$Fine. FINE. Go catch your little wild Pokémon the boring way.$Science will remember your cowardice!"
+    }
+  },
+  "outro": "Behind you, something explodes gently.$'THAT'S NORMAL!' the scientist shouts."
+}

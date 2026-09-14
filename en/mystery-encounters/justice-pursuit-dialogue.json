@@ -1,0 +1,21 @@
+{
+  "intro": "A whistle cuts through the air.$Someone in uniform steps onto the path, and they are not smiling.",
+  "speaker": "Pursuer",
+  "introDialogue": "There you are.$Reports of Poké Ball theft. Descriptions matching YOU. A trail of very upset trainers.$I don't care whose badge you've dodged before —$today the law caught up.",
+  "title": "Justice Pursuit",
+  "description": "Your reputation precedes you: law enforcement has tracked you down, and there is no talking your way out of this one. The angrier the region gets, the faster — and stronger — they come.",
+  "query": "How will you face justice?",
+  "option": {
+    "1": {
+      "label": "Stand and Fight",
+      "tooltip": "(-) A forced battle against the law\n(+) Nobody said crime was easy",
+      "selected": "Resisting arrest, then. Noted for the report.$Team — move in!"
+    },
+    "2": {
+      "label": "Try to Run",
+      "tooltip": "(-) You cannot outrun a whistle\n(-) A forced battle against the law",
+      "selected": "A runner, huh? They're always runners.$We have the exits covered. We ALWAYS have the exits covered.$Team — move in!"
+    }
+  },
+  "outro": "The pursuer retreats, muttering into a radio.$You get the distinct feeling this is not over."
+}
